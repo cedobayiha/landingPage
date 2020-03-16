@@ -332,23 +332,27 @@ footer img{
     
   }
   .projects p{
-    margin-left: 10px;
+    margin: 0 auto;
   }
 
-  .projects .bebe{
+  /* .projects .bebe{
     margin-left: 30px;
-  }
+  } */
+
   .bebe p{
-    margin-top: 25px;
+    margin-top: 15px;
   }
   
   .projects div:last-child{
     grid-column: 3/7;
   }
 
+  .projects div:nth-child(1){
+    margin-left: 10px;
+  }
+
   .projects div *{
    max-width: 90%;
-    /* margin: 10px; */
   }
 
   .footer{
@@ -424,6 +428,10 @@ footer img{
   margin-right: 10px;
 }
 
+.projects p{
+  margin: 0 auto;
+}
+
 .bebe img{
    height: 45%;
 }
@@ -435,6 +443,7 @@ footer img{
 .projects div *{
   max-width: 80%;
   margin: 10px 10%;
+  
 }
 
 footer{
@@ -470,6 +479,8 @@ footer{
   .projects div *{
     max-width: 100%;
     margin: 30px 0;
+    /* align-self: center; */
+    text-align: center;
   }
 
   footer{
